@@ -1,0 +1,135 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 25vmin;
+  pointer-events: none;
+}
+
+body {
+  background-color: #282c34;
+  color: white;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding-top: 60px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.input {
+  margin-top: 30px;
+  display: flex;
+}
+
+.input input {
+  height: 15px;
+  width: 180px;
+  background: transparent;
+  border: none;
+  border-bottom: black 2px solid;
+  -webkit-transition: 0s;
+  transition: 0s;
+  outline: none;
+  padding: 15px;
+  color: antiquewhite;
+  font-size: 20px;
+}
+
+.input input:focus {
+  border: black 2px solid;
+}
+
+.link-tag {
+  margin-left: 15px;
+  width: 85px;
+  height: 37px;
+  background-color: dimgrey;
+  font-weight: bolder;
+  font-size: 16px;
+  text-decoration: none;
+  color: antiquewhite;
+  padding-top: 8px;
+}
+
+table,
+tr,
+td {
+  border: 1.5px solid powderblue;
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+thead tr th {
+  border: 1.5px solid powderblue;
+  border-collapse: collapse;
+  padding: 10px;
+  text-align: center;
+}
+
+table {
+  width: 80%;
+  font-size: 15px;
+}
+
+.table-container {
+  text-align: left;
+  padding: 25px;
+}
+
+.repo-link {
+  text-decoration: none;
+  color: white;
+}
+
+.branches-container {
+  text-align: left;
+  padding: 25px;
+}
+
+.list {
+  font-size: 18px;
+}
+
+.navbar {
+  height: 30px;
+  text-align: left;
+  padding: 15px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  margin: 30px 20px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.aboutus {
+  text-align: left;
+  margin: 36px;
+}
+
+.loader {
+  width: 100px;
+  height: 100px;
+}
